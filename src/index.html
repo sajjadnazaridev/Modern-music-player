@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles/main.css" rel="stylesheet" />
+    <link href="./styles/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div
+      class="container flex flex-col w-1/4 my-5 mx-auto rounded-2xl p-3 bg-colorDarkOverlay max-sm:w-10/12"
+    >
+      <div class="section-image">
+        <div class="container-image flex justify-center items-center">
+          <img
+            src=""
+            class="hidden rounded-xl"
+            alt="cover-music"
+            id="coverMusic"
+          />
+          <div class="loader" id="loaderImg">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-title-music text-center my-3">
+        <div
+          class="container-title-music animate-pulse"
+          id="containerTitleMusic"
+        >
+          <h4
+            class="text-colorLightSecondary font-medium text-sm"
+            id="titleMusic"
+          >
+            Loading...
+          </h4>
+          <p class="text-colorDarkSecondary text-[0.7rem]" id="artistMusic">
+            Loading...
+          </p>
+        </div>
+      </div>
+
+      <div class="section-progress-bar-music">
+        <div class="container-progress-bar-music">
+          <div
+            class="text-music-time flex justify-between text-colorDarkSecondary text-[0.7rem]"
+          >
+            <p id="timeMusic">00:00</p>
+            <p id="durationMusic">00:00</p>
+          </div>
+
+          <div
+            class="progress-bar bg-colorLightSecondary w-full h-1.5 my-1 rounded-full"
+          >
+            <div
+              class="progress-bar-inner bg-colorPrimaryAccent rounded-full w-0 h-full"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-action-music mt-10 mb-3">
+        <div class="container-action-music flex justify-center items-baseline">
+          <div class="container-previous-music">
+            <button class="btn-previous-music">
+              <img
+                src="./images/Stop_and_play_fill-1.svg"
+                alt="previous-icon"
+              />
+            </button>
+          </div>
+
+          <div class="container-play-stop-music mx-4">
+            <button
+              class="btn-play-music flex justify-center items-center bg-colorPrimaryAccent p-2 rounded-full shadow-playMusic"
+            >
+              <div
+                class="absolute rounded-full w-10 h-10 border-2 border-r-transparent border-l-transparent border-colorLightSecondary hidden"
+                id="playerLoaderBtn"
+              ></div>
+              <img src="./images/Play_fill.svg" alt="play-icon" />
+            </button>
+          </div>
+
+          <div class="container-next-music">
+            <button class="btn-next-music">
+              <img src="./images/Stop_and_play_fill.svg" alt="next-icon" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer text-center">
+      <h4 class="text-colorLightSecondary">
+        Made with 💕 by
+        <a
+          class="transition-all hover:text-colorPrimaryAccent"
+          href="https://github.com/sajjadnazaridev/"
+          >Sajjad Nazari</a
+        >
+      </h4>
+    </div>
+  </body>
+  <script type="module" src="./js/script.js"></script>
+</html>
