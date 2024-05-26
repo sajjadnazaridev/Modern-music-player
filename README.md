@@ -1,6 +1,6 @@
 # [Music Player App](https://modern-music-player.netlify.app/)
 
-![Music Player App](https://raw.githubusercontent.com/sajjadnazaridev/Modern-music-player/main/public/Desktop-responsive.jpg?raw=true)
+![Music Player App](https://raw.githubusercontent.com/sajjadnazaridev/Modern-music-player/main/src/public/images/Desktop-responsive.jpg?raw=true)
 
 ## About the Project
 
@@ -34,7 +34,7 @@ During the development of this project, I improved my skills in the following ar
 
 ### UI Project
 
-![Desktop](https://raw.githubusercontent.com/sajjadnazaridev/Modern-music-player/main/public/Desktop-responsive.jpg?raw=true)
-![Mobile](https://raw.githubusercontent.com/sajjadnazaridev/Modern-music-player/main/public/Mobile-responsive.jpg?raw=true)
+![Desktop](https://raw.githubusercontent.com/sajjadnazaridev/Modern-music-player/main/src/public/images/Desktop-responsive.jpg?raw=true)
+![Mobile](https://raw.githubusercontent.com/sajjadnazaridev/Modern-music-player/main/src/public/images/Mobile-responsive.jpg?raw=true)
 
 Thank you for your time!💕😍
